@@ -28,7 +28,7 @@ body{
     color: red;
 }
 p{
-    color: lightgray;
+    color: rgb(63, 58, 58);
 }
 .green{
     color: #21B573;
@@ -39,6 +39,10 @@ p{
     background: #21B573;
     border-radius: 33px;
     cursor: pointer;
+}
+h6{
+    color: rgb(39, 25, 25);
+    line-height: 26px;
 }
 h1{
     font-size: 48px;
@@ -91,4 +95,38 @@ h1{
 }
 .marg{
     margin-bottom: 50px;
+}
+.images{
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+
+.footer{
+    width:100%;
+    height: 300px;
+    background-color: #282531;
+    padding-left: 50px;
+}
+.footer-p{
+    color: #fff;
+    line-height: 30px;
+    margin-top: 70px;
+}
+li{
+    color: #fff;
+    font-weight: 300;
+    list-style-type: none;
+    line-height: 26px;
+}
+.white{
+    color: #fff;
+    margin-left: 37px;
+    font-weight: 400;
+}
+small{
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin-left: 550px;
 }
