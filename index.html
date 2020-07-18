@@ -9,27 +9,48 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="bg">
+    <div class="header">
         <div class="container">
-            <div class="navbar">
-                <div class="logo">
-                   <img src="image/Logo.png" width="190px" alt="">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img class="nav-img" src="image/Logo.png" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Books <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Others</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" >Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link style" href="#" >Sign in</a>
+                      </li>
+                  </ul>
                 </div>
-                 <nav>
-                     <ul>
-                         <li><a href="#">Books</a></li>
-                         <li><a href="#">Courses</a></li>
-                         <li><a href="#">Others</a></li>
-                         <li><a href="#">Blog</a></li>
-                         <li><a href="#" class="green-bg">Sign in</a></li>
-                     </ul>
-                 </nav>
+              </nav>
+              <div class="row d-flex  align-items-center">
+                <div class="col-md-6">
+                    <h6 class="red">Are you ready to Learn?</h6>
+                    <h1>Learn With fun on <br><span class="green">any schedule</span></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse amet temporibus in eius voluptate.</p>
+                    <button class="btn">Get started</button>
+                </div>
+                <div class="col-md-6">
+                    <img class="img-fluid w-100" src="Photos/Illustration.png" alt="">
+                </div>
             </div>
-        </div>
-    </header>
-
-
-
+        </div> 
+    </div>
 
 
 
