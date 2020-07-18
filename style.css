@@ -48,3 +48,47 @@ h1{
     margin-top: 50px;
     line-height: 40px;
 }
+.container{
+    margin-bottom: 100px;
+}
+.gape{
+    width: 270px;
+    height: 270px;
+    background-color:#F0FFF0;
+    border-radius: 10px;
+    padding: 2%;
+}
+.width{
+    width: 150px;
+}
+.center-dick{
+    margin-top: 25PX;
+}
+.margin-top{
+    margin-top: 16px;
+}
+#box-shadow{
+    width: 270px;
+    height: 270px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.down{
+    margin-top: 40px;
+}
+.side-gap{
+    margin: 15px;
+}
+.card{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px lightgrey;
+}
+.card-footer{
+    background-color: white;
+    border: none;
+}
+.marg{
+    margin-bottom: 50px;
+}
